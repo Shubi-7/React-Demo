@@ -3,6 +3,7 @@ import Nav from './Nav'
 import Carousel from './Carousel'
 import Gallery from '../gallery/Gallery'
 import Arrow from '../Arrow'
+import Counter from '../../Counter'
 
 
 const Home=()=>{
@@ -14,6 +15,7 @@ const Home=()=>{
         <Gallery/>
         </div>
          <Arrow/>
+         <Counter/>
 
     
     </>
