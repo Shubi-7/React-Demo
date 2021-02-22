@@ -1,15 +1,22 @@
 import React from 'react'
 import Nav from './Nav'
 import Carousel from './Carousel'
+import Gallery from '../gallery/Gallery'
+import Arrow from '../Arrow'
 
 
-
-function Home() {
-    return (
+const Home=()=>{
+    return(
         <>
-            <Nav/>
-            <Carousel/>
-        </>
+        <Nav/>
+        <Carousel/>
+        <div className="row">
+        <Gallery/>
+        </div>
+         <Arrow/>
+
+    
+    </>
     )
 }
 

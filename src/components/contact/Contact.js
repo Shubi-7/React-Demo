@@ -1,8 +1,10 @@
 import React from 'react'
 import Nav from '../home/Nav'
 
-function Contact() {
-    return (
+
+
+const Contact=()=>{
+    return(
         <div>
         <Nav/>
 
@@ -11,5 +13,6 @@ function Contact() {
         </div>
     )
 }
+
 
 export default Contact
