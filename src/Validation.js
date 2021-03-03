@@ -7,6 +7,7 @@ import React from 'react';
      initialValues: {
        firstName: '',
        lastName: '',
+       phone:'',
        email: '',
      },
      validationSchema: Yup.object({
