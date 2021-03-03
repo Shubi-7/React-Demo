@@ -9,14 +9,15 @@ import Routes from './Routes';
 import Counter from './components/Counter';
 import Datafetch from './components/Datafetch';
 import Album from './Album';
-
+import Validation from './Validation'
 function App() {
   return (
   <>  
   {/* <Routes/> */}
   {/* <Counter/>
   <Datafetch/> */}
-  <Album/>
+  {/* <Album/> */}
+  <Validation/>
   </>
   
   )
